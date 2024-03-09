@@ -1,0 +1,20 @@
+.store_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.store_card {
+  border-radius: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.store_card img {
+  width: 100px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
